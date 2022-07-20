@@ -1,0 +1,8 @@
+﻿  ArbolAVL.cpp
+C:\Users\Esteban\Documents\MATERIAS S5\Estructura de Datos\VisualStudio\ExamenAVL\ExamenAVL\ArbolAVL.h(193,7): warning C4101: 'i': variable local sin referencia
+C:\Users\Esteban\Documents\MATERIAS S5\Estructura de Datos\VisualStudio\ExamenAVL\ExamenAVL\ArbolAVL.h(235,7): warning C4101: 'i': variable local sin referencia
+  ExamenAVL.cpp
+C:\Users\Esteban\Documents\MATERIAS S5\Estructura de Datos\VisualStudio\ExamenAVL\ExamenAVL\ArbolAVL.h(193,7): warning C4101: 'i': variable local sin referencia
+C:\Users\Esteban\Documents\MATERIAS S5\Estructura de Datos\VisualStudio\ExamenAVL\ExamenAVL\ArbolAVL.h(235,7): warning C4101: 'i': variable local sin referencia
+  Generando código...
+  ExamenAVL.vcxproj -> C:\Users\Esteban\Documents\MATERIAS S5\Estructura de Datos\VisualStudio\ExamenAVL\x64\Debug\ExamenAVL.exe
