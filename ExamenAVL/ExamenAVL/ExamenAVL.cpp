@@ -66,19 +66,24 @@ int main()
         case 4: {
             cout << "\t\t**ARBOL AVL**" << endl;
             obj.print2D(obj.raiz, 2);
+            
             //Suma de Niveles
-            /*for (int i = 0; i < 10; i++) {
+            for (int i = 0; i < 10; i++) {
                 sum[i] = 0;
             }
             obj.sumaNiveles(obj.raiz, contador, sum);
             for (int j = 0; j <= obj.altura(obj.raiz); j++) {
                 cout << "Total del nivel [" << j << "] : " << sum[j] << endl;
-            }*/
-            //Cifrar Valores
+            }
 
+            //Cifrar Valores
             auto f = [&]() {
                 ArbolAVL cif;
-                cif_node->valor = obj.sumaCifras(obj.raiz->valor);
+                int test = obj.sumaCifras(obj.raiz->valor);
+                while (test > 10) {
+                    test = obj.sumaCifras(test);
+                }
+                cif_node->valor = test;
                 cif.raiz = cif.insertar(cif.raiz, new_node);
                 obj.cifrarValores(obj.raiz, contador, cifrado, &cif);
                 cout << "\t\t**ARBOL CIFRADO**" << endl;
